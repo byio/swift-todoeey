@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>TM4VY92M5V.io.benyang.Todoeey</string>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>TM4VY92M5V.io.benyang.Todoeey</string>
+	</array>
+</dict>
+</plist>
