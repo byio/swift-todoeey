@@ -35,6 +35,35 @@
 			<key>uniqueIdentifier</key>
 			<string>5D2DDE20-30A4-4DAE-A806-1FCCB6AAFAE0</string>
 		</dict>
+		<key>5E710E5A-F978-4D53-B1E8-83BA0D99F580</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5E710E5A-F978-4D53-B1E8-83BA0D99F580.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Todoeey project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Todoeey</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Todoeey</string>
+			<key>timeStartedRecording</key>
+			<real>573009997.76466894</real>
+			<key>timeStoppedRecording</key>
+			<real>573010046.749614</real>
+			<key>title</key>
+			<string>Debug Todoeey</string>
+			<key>uniqueIdentifier</key>
+			<string>5E710E5A-F978-4D53-B1E8-83BA0D99F580</string>
+		</dict>
 		<key>6D211353-ACF2-49D2-9653-612A290431D5</key>
 		<dict>
 			<key>className</key>
