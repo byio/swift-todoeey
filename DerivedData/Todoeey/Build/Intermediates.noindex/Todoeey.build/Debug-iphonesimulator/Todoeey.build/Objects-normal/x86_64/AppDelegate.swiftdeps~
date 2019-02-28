@@ -20,6 +20,7 @@ depends-top-level:
 - "CastingPrecedence"
 - !private "NSSearchPathForDirectoriesInDomains"
 - !private "String"
+- !private "StringLiteralType"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIResponder"
@@ -49,6 +50,8 @@ depends-member:
 - ["7Todoeey11AppDelegateC", "window"]
 - !private ["Sa", "last"]
 - !private ["s13ArrayProtocolP", "last"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
 - !private ["SK", "last"]
 - ["s7CVarArgP", "LaunchOptionsKey"]
 - !private ["s7CVarArgP", "NSSearchPathForDirectoriesInDomains"]
@@ -70,7 +73,11 @@ depends-member:
 - !private ["s7CVarArgP", "last"]
 - !private ["s7CVarArgP", "print"]
 - ["s7CVarArgP", "window"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
 - !private ["Sl", "last"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
 - ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
 - !private ["s28CustomDebugStringConvertibleP", "NSSearchPathForDirectoriesInDomains"]
 - ["s28CustomDebugStringConvertibleP", ""]
@@ -91,6 +98,10 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "last"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
 - ["s28CustomDebugStringConvertibleP", "window"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "last"]
 - ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
 - !private ["s23CustomStringConvertibleP", "NSSearchPathForDirectoriesInDomains"]
@@ -112,7 +123,11 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "last"]
 - !private ["s23CustomStringConvertibleP", "print"]
 - ["s23CustomStringConvertibleP", "window"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
 - !private ["Se", "last"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
 - !private ["SE", "last"]
 - ["SQ", "LaunchOptionsKey"]
 - !private ["SQ", "NSSearchPathForDirectoriesInDomains"]
@@ -138,6 +153,12 @@ depends-member:
 - ["SQ", "window"]
 - !private ["s25ExpressibleByArrayLiteralP", "last"]
 - !private ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - ["SH", "LaunchOptionsKey"]
 - !private ["SH", "NSSearchPathForDirectoriesInDomains"]
 - ["SH", ""]
@@ -159,6 +180,10 @@ depends-member:
 - !private ["SH", "last"]
 - !private ["SH", "print"]
 - ["SH", "window"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
 - !private ["SM", "last"]
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "LaunchOptionsKey"]
@@ -203,13 +228,25 @@ depends-member:
 - ["So8NSObjectP", "window"]
 - !private ["s9OptionSetP", "userDomainMask"]
 - !private ["Sk", "last"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
 - !private ["Sm", "last"]
 - !private ["SY", "documentDirectory"]
 - !private ["SY", "userDomainMask"]
 - !private ["So21NSSearchPathDirectoryV", "documentDirectory"]
 - !private ["So22NSSearchPathDomainMaskV", "userDomainMask"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
 - !private ["ST", "last"]
 - !private ["s10SetAlgebraP", "userDomainMask"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
 - ["So13UIApplicationC", "LaunchOptionsKey"]
 - !private ["So21UIApplicationDelegateP", "NSSearchPathForDirectoriesInDomains"]
 - ["So21UIApplicationDelegateP", ""]
@@ -308,6 +345,16 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "print"]
 - ["So23UIUserActivityRestoringP", "window"]
 - !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "LaunchOptionsKey"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NSSearchPathForDirectoriesInDomains"]
@@ -328,7 +375,11 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "7Todoeey11AppDelegateC"
 - !private "Sa"
@@ -336,14 +387,21 @@ depends-nominal:
 - !private "SK"
 - "s7CVarArgP"
 - !private "Sl"
+- !private "SL"
 - "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - !private "Se"
 - !private "SE"
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - !private "SM"
 - "So8NSObjectC"
 - "So8NSObjectP"
@@ -355,6 +413,10 @@ depends-nominal:
 - !private "So22NSSearchPathDomainMaskV"
 - !private "ST"
 - !private "s10SetAlgebraP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - "So13UIApplicationC"
 - "So21UIApplicationDelegateP"
 - "So30UIPasteConfigurationSupportingP"
@@ -362,9 +424,15 @@ depends-nominal:
 - "So30UIResponderStandardEditActionsP"
 - "So23UIUserActivityRestoringP"
 - !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"

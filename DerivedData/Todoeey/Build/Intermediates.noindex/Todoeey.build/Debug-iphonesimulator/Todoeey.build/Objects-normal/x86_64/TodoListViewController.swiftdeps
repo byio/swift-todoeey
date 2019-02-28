@@ -10,15 +10,15 @@ provides-dynamic-lookup:
 - "tableView"
 - "viewDidLoad"
 depends-top-level:
-- !private "=="
-- "Array"
+- !private "!"
 - "AssignmentPrecedence"
 - !private "BooleanLiteralType"
 - "CastingPrecedence"
 - "IndexPath"
 - "Int"
-- !private "String"
-- "StringLiteralType"
+- "Item"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
 - "TodoListViewController"
 - !private "UIAlertAction"
 - !private "UIAlertController"
@@ -33,19 +33,23 @@ depends-member:
 - !private ["So28UITableViewCellAccessoryTypeV", "none"]
 - !private ["Sa", "append"]
 - !private ["Sa", "count"]
+- ["Sa", "init"]
 - !private ["Sa", "subscript"]
 - !private ["s13ArrayProtocolP", "append"]
 - !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "done"]
+- ["s13ArrayProtocolP", "init"]
 - !private ["s13ArrayProtocolP", "subscript"]
+- !private ["s10ArraySliceV", "done"]
 - !private ["SK", "append"]
 - !private ["SK", "count"]
+- !private ["SK", "done"]
 - ["SK", "init"]
-- ["SK", "init"]
+- !private ["SK", "init"]
 - !private ["SK", "row"]
 - !private ["SK", "subscript"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CALayerDelegateP", "accessoryType"]
-- !private ["So15CALayerDelegateP", "cellForRow"]
 - !private ["So15CALayerDelegateP", "dequeueReusableCell"]
 - !private ["So15CALayerDelegateP", "deselectRow"]
 - !private ["So15CALayerDelegateP", "init"]
@@ -53,6 +57,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "reloadData"]
 - !private ["So15CALayerDelegateP", "text"]
 - !private ["So15CALayerDelegateP", "textLabel"]
+- ["s7CVarArgP", "Item"]
 - !private ["s7CVarArgP", "UIAlertAction"]
 - !private ["s7CVarArgP", "UIAlertController"]
 - !private ["s7CVarArgP", "UITextField"]
@@ -64,13 +69,12 @@ depends-member:
 - !private ["s7CVarArgP", "addTextField"]
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "array"]
-- !private ["s7CVarArgP", "cellForRow"]
 - !private ["s7CVarArgP", "count"]
 - !private ["s7CVarArgP", "defaults"]
 - !private ["s7CVarArgP", "dequeueReusableCell"]
 - !private ["s7CVarArgP", "deselectRow"]
 - ["s7CVarArgP", "init"]
-- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "itemArray"]
 - !private ["s7CVarArgP", "placeholder"]
 - !private ["s7CVarArgP", "present"]
@@ -84,13 +88,15 @@ depends-member:
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["Sl", "append"]
 - !private ["Sl", "count"]
+- !private ["Sl", "done"]
 - ["Sl", "init"]
-- ["Sl", "init"]
+- !private ["Sl", "init"]
 - !private ["Sl", "row"]
 - !private ["Sl", "subscript"]
-- ["SL", "init"]
-- ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
 - !private ["SL", "row"]
+- ["s28CustomDebugStringConvertibleP", "Item"]
 - !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
 - !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
 - !private ["s28CustomDebugStringConvertibleP", "UITextField"]
@@ -101,14 +107,13 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "addTextField"]
 - !private ["s28CustomDebugStringConvertibleP", "append"]
 - !private ["s28CustomDebugStringConvertibleP", "array"]
-- !private ["s28CustomDebugStringConvertibleP", "cellForRow"]
-- !private ["s28CustomDebugStringConvertibleP", "checkmark"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "defaults"]
 - !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
 - !private ["s28CustomDebugStringConvertibleP", "deselectRow"]
+- !private ["s28CustomDebugStringConvertibleP", "done"]
 - ["s28CustomDebugStringConvertibleP", "init"]
-- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "itemArray"]
 - !private ["s28CustomDebugStringConvertibleP", "placeholder"]
 - !private ["s28CustomDebugStringConvertibleP", "present"]
@@ -122,17 +127,18 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "textLabel"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
-- ["s29CustomPlaygroundQuickLookableP", "init"]
-- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "append"]
-- !private ["s17CustomReflectableP", "checkmark"]
 - !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "done"]
 - ["s17CustomReflectableP", "init"]
-- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "reloadData"]
 - !private ["s17CustomReflectableP", "row"]
 - !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "Item"]
 - !private ["s23CustomStringConvertibleP", "UIAlertAction"]
 - !private ["s23CustomStringConvertibleP", "UIAlertController"]
 - !private ["s23CustomStringConvertibleP", "UITextField"]
@@ -144,13 +150,13 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "addTextField"]
 - !private ["s23CustomStringConvertibleP", "append"]
 - !private ["s23CustomStringConvertibleP", "array"]
-- !private ["s23CustomStringConvertibleP", "cellForRow"]
 - !private ["s23CustomStringConvertibleP", "count"]
 - !private ["s23CustomStringConvertibleP", "defaults"]
 - !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
 - !private ["s23CustomStringConvertibleP", "deselectRow"]
+- !private ["s23CustomStringConvertibleP", "done"]
 - ["s23CustomStringConvertibleP", "init"]
-- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "itemArray"]
 - !private ["s23CustomStringConvertibleP", "placeholder"]
 - !private ["s23CustomStringConvertibleP", "present"]
@@ -165,22 +171,21 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - !private ["Se", "_getBuiltinLogicValue"]
 - !private ["Se", "append"]
-- !private ["Se", "checkmark"]
 - !private ["Se", "count"]
 - ["Se", "init"]
-- ["Se", "init"]
+- !private ["Se", "init"]
 - !private ["Se", "reloadData"]
 - !private ["Se", "row"]
 - !private ["Se", "subscript"]
 - !private ["SE", "_getBuiltinLogicValue"]
 - !private ["SE", "append"]
-- !private ["SE", "checkmark"]
 - !private ["SE", "count"]
 - ["SE", "init"]
-- ["SE", "init"]
+- !private ["SE", "init"]
 - !private ["SE", "reloadData"]
 - !private ["SE", "row"]
 - !private ["SE", "subscript"]
+- ["SQ", "Item"]
 - !private ["SQ", "UIAlertAction"]
 - !private ["SQ", "UIAlertController"]
 - !private ["SQ", "UITextField"]
@@ -193,15 +198,15 @@ depends-member:
 - !private ["SQ", "alert"]
 - !private ["SQ", "append"]
 - !private ["SQ", "array"]
-- !private ["SQ", "cellForRow"]
 - !private ["SQ", "checkmark"]
 - !private ["SQ", "count"]
 - !private ["SQ", "default"]
 - !private ["SQ", "defaults"]
 - !private ["SQ", "dequeueReusableCell"]
 - !private ["SQ", "deselectRow"]
+- !private ["SQ", "done"]
 - ["SQ", "init"]
-- ["SQ", "init"]
+- !private ["SQ", "init"]
 - !private ["SQ", "itemArray"]
 - !private ["SQ", "none"]
 - !private ["SQ", "placeholder"]
@@ -217,17 +222,19 @@ depends-member:
 - !private ["SQ", "viewDidLoad"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "done"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "row"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s23ExpressibleByNilLiteralP", "checkmark"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "reloadData"]
-- ["s26ExpressibleByStringLiteralP", "init"]
-- ["s26ExpressibleByStringLiteralP", "init"]
-- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "Item"]
 - !private ["SH", "UIAlertAction"]
 - !private ["SH", "UIAlertController"]
 - !private ["SH", "UITextField"]
@@ -240,15 +247,15 @@ depends-member:
 - !private ["SH", "alert"]
 - !private ["SH", "append"]
 - !private ["SH", "array"]
-- !private ["SH", "cellForRow"]
 - !private ["SH", "checkmark"]
 - !private ["SH", "count"]
 - !private ["SH", "default"]
 - !private ["SH", "defaults"]
 - !private ["SH", "dequeueReusableCell"]
 - !private ["SH", "deselectRow"]
+- !private ["SH", "done"]
 - ["SH", "init"]
-- ["SH", "init"]
+- !private ["SH", "init"]
 - !private ["SH", "itemArray"]
 - !private ["SH", "none"]
 - !private ["SH", "placeholder"]
@@ -263,15 +270,21 @@ depends-member:
 - !private ["SH", "textLabel"]
 - !private ["SH", "viewDidLoad"]
 - !private ["10Foundation9IndexPathV", "row"]
+- !private ["7Todoeey4ItemC", "done"]
+- !private ["7Todoeey4ItemC", "init"]
+- !private ["7Todoeey4ItemC", "title"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
-- ["s25LosslessStringConvertibleP", "init"]
-- ["s25LosslessStringConvertibleP", "init"]
-- ["s10MirrorPathP", "init"]
-- ["s10MirrorPathP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
 - !private ["SM", "append"]
 - !private ["SM", "count"]
+- !private ["SM", "done"]
+- ["SM", "init"]
 - !private ["SM", "row"]
 - !private ["SM", "subscript"]
+- ["So8NSCodingP", "Item"]
 - !private ["So8NSCodingP", "UIAlertAction"]
 - !private ["So8NSCodingP", "UIAlertController"]
 - !private ["So8NSCodingP", "UITextField"]
@@ -280,7 +293,6 @@ depends-member:
 - !private ["So8NSCodingP", "accessoryType"]
 - !private ["So8NSCodingP", "addAction"]
 - !private ["So8NSCodingP", "addTextField"]
-- !private ["So8NSCodingP", "cellForRow"]
 - !private ["So8NSCodingP", "defaults"]
 - !private ["So8NSCodingP", "dequeueReusableCell"]
 - !private ["So8NSCodingP", "deselectRow"]
@@ -295,6 +307,7 @@ depends-member:
 - !private ["So8NSCodingP", "textLabel"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - !private ["So9NSCopyingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "Item"]
 - !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
 - !private ["So26NSExtensionRequestHandlingP", "UIAlertController"]
 - !private ["So26NSExtensionRequestHandlingP", "UITextField"]
@@ -311,7 +324,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So8NSObjectC", "IndexPath"]
 - ["So8NSObjectC", "Int"]
-- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "Item"]
 - !private ["So8NSObjectC", "UIAlertAction"]
 - !private ["So8NSObjectC", "UIAlertController"]
 - ["So8NSObjectC", "UIBarButtonItem"]
@@ -324,7 +337,6 @@ depends-member:
 - ["So8NSObjectC", "addButtonPressed"]
 - !private ["So8NSObjectC", "addTextField"]
 - !private ["So8NSObjectC", "array"]
-- !private ["So8NSObjectC", "cellForRow"]
 - ["So8NSObjectC", "defaults"]
 - !private ["So8NSObjectC", "dequeueReusableCell"]
 - !private ["So8NSObjectC", "deselectRow"]
@@ -340,6 +352,7 @@ depends-member:
 - !private ["So8NSObjectC", "text"]
 - !private ["So8NSObjectC", "textLabel"]
 - ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", "Item"]
 - !private ["So8NSObjectP", "UIAlertAction"]
 - !private ["So8NSObjectP", "UIAlertController"]
 - !private ["So8NSObjectP", "UITextField"]
@@ -349,7 +362,6 @@ depends-member:
 - !private ["So8NSObjectP", "addAction"]
 - !private ["So8NSObjectP", "addTextField"]
 - !private ["So8NSObjectP", "array"]
-- !private ["So8NSObjectP", "cellForRow"]
 - !private ["So8NSObjectP", "defaults"]
 - !private ["So8NSObjectP", "dequeueReusableCell"]
 - !private ["So8NSObjectP", "deselectRow"]
@@ -365,16 +377,18 @@ depends-member:
 - !private ["So8NSObjectP", "text"]
 - !private ["So8NSObjectP", "textLabel"]
 - !private ["So8NSObjectP", "viewDidLoad"]
-- !private ["Sq", "checkmark"]
 - !private ["Sq", "reloadData"]
 - !private ["Sk", "append"]
 - !private ["Sk", "count"]
+- !private ["Sk", "done"]
+- ["Sk", "init"]
 - !private ["Sk", "row"]
 - !private ["Sk", "subscript"]
 - !private ["Sm", "append"]
 - !private ["Sm", "count"]
+- !private ["Sm", "done"]
 - ["Sm", "init"]
-- ["Sm", "init"]
+- !private ["Sm", "init"]
 - !private ["Sm", "subscript"]
 - !private ["SY", "alert"]
 - !private ["SY", "checkmark"]
@@ -383,23 +397,24 @@ depends-member:
 - !private ["10Foundation20ReferenceConvertibleP", "row"]
 - !private ["ST", "append"]
 - !private ["ST", "count"]
+- !private ["ST", "done"]
 - ["ST", "init"]
-- ["ST", "init"]
+- !private ["ST", "init"]
 - !private ["ST", "row"]
 - !private ["ST", "subscript"]
-- ["SS", "init"]
-- ["SS", "init"]
-- ["Sy", "init"]
-- ["Sy", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
 - !private ["So22UIAlertControllerStyleV", "alert"]
 - !private ["So18UIAlertActionStyleV", "default"]
-- ["s16TextOutputStreamP", "init"]
-- ["s16TextOutputStreamP", "init"]
-- ["s20TextOutputStreamableP", "init"]
-- ["s20TextOutputStreamableP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
 - ["7Todoeey22TodoListViewControllerC", "IndexPath"]
 - ["7Todoeey22TodoListViewControllerC", "Int"]
-- !private ["7Todoeey22TodoListViewControllerC", "String"]
+- ["7Todoeey22TodoListViewControllerC", "Item"]
 - !private ["7Todoeey22TodoListViewControllerC", "UIAlertAction"]
 - !private ["7Todoeey22TodoListViewControllerC", "UIAlertController"]
 - ["7Todoeey22TodoListViewControllerC", "UIBarButtonItem"]
@@ -416,7 +431,6 @@ depends-member:
 - ["7Todoeey22TodoListViewControllerC", "tableView"]
 - ["7Todoeey22TodoListViewControllerC", "viewDidLoad"]
 - !private ["So29UIAccessibilityIdentificationP", "accessoryType"]
-- !private ["So29UIAccessibilityIdentificationP", "cellForRow"]
 - !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
 - !private ["So29UIAccessibilityIdentificationP", "deselectRow"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
@@ -429,7 +443,6 @@ depends-member:
 - !private ["So17UIAlertControllerC", "addTextField"]
 - !private ["So17UIAlertControllerC", "init"]
 - !private ["So12UIAppearanceP", "accessoryType"]
-- !private ["So12UIAppearanceP", "cellForRow"]
 - !private ["So12UIAppearanceP", "dequeueReusableCell"]
 - !private ["So12UIAppearanceP", "deselectRow"]
 - !private ["So12UIAppearanceP", "init"]
@@ -437,6 +450,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "reloadData"]
 - !private ["So12UIAppearanceP", "text"]
 - !private ["So12UIAppearanceP", "textLabel"]
+- ["So21UIAppearanceContainerP", "Item"]
 - !private ["So21UIAppearanceContainerP", "UIAlertAction"]
 - !private ["So21UIAppearanceContainerP", "UIAlertController"]
 - !private ["So21UIAppearanceContainerP", "UITextField"]
@@ -445,7 +459,6 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "accessoryType"]
 - !private ["So21UIAppearanceContainerP", "addAction"]
 - !private ["So21UIAppearanceContainerP", "addTextField"]
-- !private ["So21UIAppearanceContainerP", "cellForRow"]
 - !private ["So21UIAppearanceContainerP", "defaults"]
 - !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
 - !private ["So21UIAppearanceContainerP", "deselectRow"]
@@ -459,6 +472,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "text"]
 - !private ["So21UIAppearanceContainerP", "textLabel"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "Item"]
 - !private ["So18UIContentContainerP", "UIAlertAction"]
 - !private ["So18UIContentContainerP", "UIAlertController"]
 - !private ["So18UIContentContainerP", "UITextField"]
@@ -480,7 +494,6 @@ depends-member:
 - !private ["So9UIControlC", "placeholder"]
 - !private ["So9UIControlC", "text"]
 - !private ["So17UICoordinateSpaceP", "accessoryType"]
-- !private ["So17UICoordinateSpaceP", "cellForRow"]
 - !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
 - !private ["So17UICoordinateSpaceP", "deselectRow"]
 - !private ["So17UICoordinateSpaceP", "init"]
@@ -488,12 +501,10 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "reloadData"]
 - !private ["So17UICoordinateSpaceP", "text"]
 - !private ["So17UICoordinateSpaceP", "textLabel"]
-- !private ["So23UIDataSourceTranslatingP", "cellForRow"]
 - !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
 - !private ["So23UIDataSourceTranslatingP", "deselectRow"]
 - !private ["So23UIDataSourceTranslatingP", "reloadData"]
 - !private ["So13UIDynamicItemP", "accessoryType"]
-- !private ["So13UIDynamicItemP", "cellForRow"]
 - !private ["So13UIDynamicItemP", "dequeueReusableCell"]
 - !private ["So13UIDynamicItemP", "deselectRow"]
 - !private ["So13UIDynamicItemP", "init"]
@@ -501,6 +512,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "reloadData"]
 - !private ["So13UIDynamicItemP", "text"]
 - !private ["So13UIDynamicItemP", "textLabel"]
+- ["So18UIFocusEnvironmentP", "Item"]
 - !private ["So18UIFocusEnvironmentP", "UIAlertAction"]
 - !private ["So18UIFocusEnvironmentP", "UIAlertController"]
 - !private ["So18UIFocusEnvironmentP", "UITextField"]
@@ -509,7 +521,6 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "accessoryType"]
 - !private ["So18UIFocusEnvironmentP", "addAction"]
 - !private ["So18UIFocusEnvironmentP", "addTextField"]
-- !private ["So18UIFocusEnvironmentP", "cellForRow"]
 - !private ["So18UIFocusEnvironmentP", "defaults"]
 - !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
 - !private ["So18UIFocusEnvironmentP", "deselectRow"]
@@ -524,7 +535,6 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "textLabel"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - !private ["So11UIFocusItemP", "accessoryType"]
-- !private ["So11UIFocusItemP", "cellForRow"]
 - !private ["So11UIFocusItemP", "dequeueReusableCell"]
 - !private ["So11UIFocusItemP", "deselectRow"]
 - !private ["So11UIFocusItemP", "init"]
@@ -533,7 +543,6 @@ depends-member:
 - !private ["So11UIFocusItemP", "text"]
 - !private ["So11UIFocusItemP", "textLabel"]
 - !private ["So20UIFocusItemContainerP", "accessoryType"]
-- !private ["So20UIFocusItemContainerP", "cellForRow"]
 - !private ["So20UIFocusItemContainerP", "dequeueReusableCell"]
 - !private ["So20UIFocusItemContainerP", "deselectRow"]
 - !private ["So20UIFocusItemContainerP", "init"]
@@ -541,7 +550,6 @@ depends-member:
 - !private ["So20UIFocusItemContainerP", "reloadData"]
 - !private ["So20UIFocusItemContainerP", "text"]
 - !private ["So20UIFocusItemContainerP", "textLabel"]
-- !private ["So30UIFocusItemScrollableContainerP", "cellForRow"]
 - !private ["So30UIFocusItemScrollableContainerP", "dequeueReusableCell"]
 - !private ["So30UIFocusItemScrollableContainerP", "deselectRow"]
 - !private ["So30UIFocusItemScrollableContainerP", "reloadData"]
@@ -551,6 +559,7 @@ depends-member:
 - !private ["So10UIKeyInputP", "placeholder"]
 - !private ["So10UIKeyInputP", "text"]
 - !private ["So7UILabelC", "text"]
+- ["So30UIPasteConfigurationSupportingP", "Item"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
 - !private ["So30UIPasteConfigurationSupportingP", "UITextField"]
@@ -559,7 +568,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "accessoryType"]
 - !private ["So30UIPasteConfigurationSupportingP", "addAction"]
 - !private ["So30UIPasteConfigurationSupportingP", "addTextField"]
-- !private ["So30UIPasteConfigurationSupportingP", "cellForRow"]
 - !private ["So30UIPasteConfigurationSupportingP", "defaults"]
 - !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
 - !private ["So30UIPasteConfigurationSupportingP", "deselectRow"]
@@ -575,7 +583,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So11UIResponderC", "IndexPath"]
 - ["So11UIResponderC", "Int"]
-- !private ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "Item"]
 - !private ["So11UIResponderC", "UIAlertAction"]
 - !private ["So11UIResponderC", "UIAlertController"]
 - ["So11UIResponderC", "UIBarButtonItem"]
@@ -587,7 +595,6 @@ depends-member:
 - !private ["So11UIResponderC", "addAction"]
 - ["So11UIResponderC", "addButtonPressed"]
 - !private ["So11UIResponderC", "addTextField"]
-- !private ["So11UIResponderC", "cellForRow"]
 - ["So11UIResponderC", "defaults"]
 - !private ["So11UIResponderC", "dequeueReusableCell"]
 - !private ["So11UIResponderC", "deselectRow"]
@@ -601,6 +608,7 @@ depends-member:
 - !private ["So11UIResponderC", "text"]
 - !private ["So11UIResponderC", "textLabel"]
 - ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "Item"]
 - !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
 - !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
 - !private ["So30UIResponderStandardEditActionsP", "UITextField"]
@@ -609,7 +617,6 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "accessoryType"]
 - !private ["So30UIResponderStandardEditActionsP", "addAction"]
 - !private ["So30UIResponderStandardEditActionsP", "addTextField"]
-- !private ["So30UIResponderStandardEditActionsP", "cellForRow"]
 - !private ["So30UIResponderStandardEditActionsP", "defaults"]
 - !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
 - !private ["So30UIResponderStandardEditActionsP", "deselectRow"]
@@ -623,10 +630,10 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "text"]
 - !private ["So30UIResponderStandardEditActionsP", "textLabel"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
-- !private ["So12UIScrollViewC", "cellForRow"]
 - !private ["So12UIScrollViewC", "dequeueReusableCell"]
 - !private ["So12UIScrollViewC", "deselectRow"]
 - !private ["So12UIScrollViewC", "reloadData"]
+- ["So20UIScrollViewDelegateP", "Item"]
 - !private ["So20UIScrollViewDelegateP", "UIAlertAction"]
 - !private ["So20UIScrollViewDelegateP", "UIAlertController"]
 - !private ["So20UIScrollViewDelegateP", "UITextField"]
@@ -641,11 +648,11 @@ depends-member:
 - !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "addTextField"]
-- !private ["So35UISpringLoadedInteractionSupportingP", "cellForRow"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "deselectRow"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "init"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "reloadData"]
+- ["So16UIStateRestoringP", "Item"]
 - !private ["So16UIStateRestoringP", "UIAlertAction"]
 - !private ["So16UIStateRestoringP", "UIAlertController"]
 - !private ["So16UIStateRestoringP", "UITextField"]
@@ -660,7 +667,6 @@ depends-member:
 - !private ["So16UIStateRestoringP", "present"]
 - !private ["So16UIStateRestoringP", "tableView"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
-- !private ["So11UITableViewC", "cellForRow"]
 - !private ["So11UITableViewC", "dequeueReusableCell"]
 - !private ["So11UITableViewC", "deselectRow"]
 - !private ["So11UITableViewC", "reloadData"]
@@ -668,7 +674,7 @@ depends-member:
 - !private ["So15UITableViewCellC", "textLabel"]
 - ["So21UITableViewControllerC", "IndexPath"]
 - ["So21UITableViewControllerC", "Int"]
-- !private ["So21UITableViewControllerC", "String"]
+- ["So21UITableViewControllerC", "Item"]
 - !private ["So21UITableViewControllerC", "UIAlertAction"]
 - !private ["So21UITableViewControllerC", "UIAlertController"]
 - ["So21UITableViewControllerC", "UIBarButtonItem"]
@@ -685,6 +691,7 @@ depends-member:
 - !private ["So21UITableViewControllerC", "present"]
 - ["So21UITableViewControllerC", "tableView"]
 - ["So21UITableViewControllerC", "viewDidLoad"]
+- ["So21UITableViewDataSourceP", "Item"]
 - !private ["So21UITableViewDataSourceP", "UIAlertAction"]
 - !private ["So21UITableViewDataSourceP", "UIAlertController"]
 - !private ["So21UITableViewDataSourceP", "UITextField"]
@@ -697,6 +704,7 @@ depends-member:
 - !private ["So21UITableViewDataSourceP", "present"]
 - !private ["So21UITableViewDataSourceP", "tableView"]
 - !private ["So21UITableViewDataSourceP", "viewDidLoad"]
+- ["So19UITableViewDelegateP", "Item"]
 - !private ["So19UITableViewDelegateP", "UIAlertAction"]
 - !private ["So19UITableViewDelegateP", "UIAlertController"]
 - !private ["So19UITableViewDelegateP", "UITextField"]
@@ -727,6 +735,7 @@ depends-member:
 - !private ["So34UITextPasteConfigurationSupportingP", "init"]
 - !private ["So34UITextPasteConfigurationSupportingP", "placeholder"]
 - !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- ["So18UITraitEnvironmentP", "Item"]
 - !private ["So18UITraitEnvironmentP", "UIAlertAction"]
 - !private ["So18UITraitEnvironmentP", "UIAlertController"]
 - !private ["So18UITraitEnvironmentP", "UITextField"]
@@ -735,7 +744,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "accessoryType"]
 - !private ["So18UITraitEnvironmentP", "addAction"]
 - !private ["So18UITraitEnvironmentP", "addTextField"]
-- !private ["So18UITraitEnvironmentP", "cellForRow"]
 - !private ["So18UITraitEnvironmentP", "defaults"]
 - !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
 - !private ["So18UITraitEnvironmentP", "deselectRow"]
@@ -749,6 +757,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "text"]
 - !private ["So18UITraitEnvironmentP", "textLabel"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "Item"]
 - !private ["So23UIUserActivityRestoringP", "UIAlertAction"]
 - !private ["So23UIUserActivityRestoringP", "UIAlertController"]
 - !private ["So23UIUserActivityRestoringP", "UITextField"]
@@ -757,7 +766,6 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "accessoryType"]
 - !private ["So23UIUserActivityRestoringP", "addAction"]
 - !private ["So23UIUserActivityRestoringP", "addTextField"]
-- !private ["So23UIUserActivityRestoringP", "cellForRow"]
 - !private ["So23UIUserActivityRestoringP", "defaults"]
 - !private ["So23UIUserActivityRestoringP", "dequeueReusableCell"]
 - !private ["So23UIUserActivityRestoringP", "deselectRow"]
@@ -772,7 +780,6 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "textLabel"]
 - !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
 - !private ["So6UIViewC", "accessoryType"]
-- !private ["So6UIViewC", "cellForRow"]
 - !private ["So6UIViewC", "dequeueReusableCell"]
 - !private ["So6UIViewC", "deselectRow"]
 - !private ["So6UIViewC", "init"]
@@ -782,7 +789,7 @@ depends-member:
 - !private ["So6UIViewC", "textLabel"]
 - ["So16UIViewControllerC", "IndexPath"]
 - ["So16UIViewControllerC", "Int"]
-- !private ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "Item"]
 - !private ["So16UIViewControllerC", "UIAlertAction"]
 - !private ["So16UIViewControllerC", "UIAlertController"]
 - ["So16UIViewControllerC", "UIBarButtonItem"]
@@ -804,7 +811,6 @@ depends-member:
 - !private ["So14NSUserDefaultsC", "set"]
 - ["So14NSUserDefaultsC", "standard"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "accessoryType"]
-- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "cellForRow"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "deselectRow"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
@@ -814,21 +820,25 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textLabel"]
 - !private ["s24_DestructorSafeContainerP", "append"]
 - !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "done"]
+- ["s24_DestructorSafeContainerP", "init"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
-- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
-- ["s33_ExpressibleByStringInterpolationP", "init"]
-- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Item"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UITextField"]
@@ -838,7 +848,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addTextField"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "array"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "cellForRow"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "defaults"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "deselectRow"]
@@ -856,61 +865,61 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
-- !private ["s21_ObjectiveCBridgeableP", "checkmark"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
 - ["s21_ObjectiveCBridgeableP", "init"]
-- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "reloadData"]
 - !private ["s21_ObjectiveCBridgeableP", "row"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
-- !private ["s26_OptionalNilComparisonTypeV", "checkmark"]
-- ["s16_SwiftStringViewP", "init"]
-- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "So28UITableViewCellAccessoryTypeV"
-- !private "Sa"
-- !private "s13ArrayProtocolP"
+- "Sa"
+- "s13ArrayProtocolP"
+- !private "s10ArraySliceV"
 - "SK"
 - !private "Sb"
 - !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - "Sl"
-- "SL"
+- !private "SL"
 - "s28CustomDebugStringConvertibleP"
-- "s29CustomPlaygroundQuickLookableP"
+- !private "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - "Se"
 - "SE"
 - "SQ"
-- !private "s25ExpressibleByArrayLiteralP"
+- "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
 - !private "10Foundation9IndexPathV"
-- "s25LosslessStringConvertibleP"
-- "s10MirrorPathP"
-- !private "SM"
+- !private "7Todoeey4ItemC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "SM"
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "Sq"
-- !private "Sk"
+- "Sk"
 - "Sm"
 - !private "SY"
 - !private "10Foundation20ReferenceConvertibleP"
 - "ST"
-- "SS"
-- "Sy"
+- !private "SS"
+- !private "Sy"
 - !private "So22UIAlertControllerStyleV"
 - !private "So18UIAlertActionStyleV"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - "7Todoeey22TodoListViewControllerC"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So13UIAlertActionC"
@@ -954,18 +963,17 @@ depends-nominal:
 - "So16UIViewControllerC"
 - "So14NSUserDefaultsC"
 - !private "s37_DefaultCustomPlaygroundQuickLookableP"
-- !private "s24_DestructorSafeContainerP"
+- "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- "s34_ExpressibleByBuiltinStringLiteralP"
-- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
-- "s33_ExpressibleByStringInterpolationP"
-- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "s21_ObjectiveCBridgeableP"
-- !private "s26_OptionalNilComparisonTypeV"
-- "s16_SwiftStringViewP"
+- !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -992,4 +1000,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "7a6a958494e16da41cedd793123d2f9b"
+interface-hash: "94841a376c840b6cad1722bc771957af"
