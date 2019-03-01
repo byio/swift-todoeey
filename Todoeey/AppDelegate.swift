@@ -16,9 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // this delegate method gets called when app first loads, even before the viewDidLoad in TodoListViewController
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        // print path for UserDefaults plist
-        print("didFinishLaunchingWithOptions")
-        print(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).last! as String)
+        // print path for UserDefaults plist (demo)
+//        print("didFinishLaunchingWithOptions")
+//        print(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).last! as String)
         
         // Override point for customization after application launch.
         return true
