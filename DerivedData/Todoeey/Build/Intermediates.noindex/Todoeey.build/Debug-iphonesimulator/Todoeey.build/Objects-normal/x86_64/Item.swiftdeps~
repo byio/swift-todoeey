@@ -10,7 +10,7 @@ depends-top-level:
 - "=="
 - "Bool"
 - "BooleanLiteralType"
-- "Encodable"
+- "Codable"
 - "Item"
 - "String"
 - "StringLiteralType"
@@ -59,14 +59,21 @@ depends-member:
 - ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", "intValue"]
 - ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", ""]
 - !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "done"]
+- ["Se", "encode"]
 - ["Se", "init"]
 - ["Se", "init"]
+- !private ["Se", "title"]
+- !private ["s7DecoderP", "container"]
 - ["SE", ""]
 - !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "done"]
 - ["SE", "encode"]
 - ["SE", "init"]
 - ["SE", "init"]
+- !private ["SE", "title"]
 - !private ["s7EncoderP", "container"]
 - !private ["SQ", ""]
 - !private ["SQ", "_getBuiltinLogicValue"]
@@ -103,6 +110,8 @@ depends-member:
 - ["7Todoeey4ItemC", "encode"]
 - ["7Todoeey4ItemC", "init"]
 - ["7Todoeey4ItemC", "title"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
 - !private ["s22KeyedEncodingContainerV", "encode"]
 - !private ["s30KeyedEncodingContainerProtocolP", "encode"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
@@ -150,6 +159,7 @@ depends-nominal:
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - "Se"
+- !private "s7DecoderP"
 - "SE"
 - !private "s7EncoderP"
 - "SQ"
@@ -160,6 +170,8 @@ depends-nominal:
 - "SH"
 - !private "s6HasherV"
 - "7Todoeey4ItemC"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
 - !private "s22KeyedEncodingContainerV"
 - !private "s30KeyedEncodingContainerProtocolP"
 - "s25LosslessStringConvertibleP"
@@ -204,4 +216,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "f310aeb17e1e21a7a36d722d8744b434"
+interface-hash: "c037e5e448b5c848db0fc46a91a3344d"

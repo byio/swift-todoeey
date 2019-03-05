@@ -7,21 +7,34 @@
 
 
 import UIKit
+import CoreData
 
 class TodoListViewController: UITableViewController {
     
-    // create a file path to the documents folder in the file system (singleton)
-    let dataFilePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("Items.plist")
+    @IBOutlet weak var searchBar: UISearchBar!
     
-    // create itemArray as an Array of Item objects
+    // define persistent context
+    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    
+    // initialize itemArray as an Array of Item objects
     var itemArray = [Item]()
+    
+    // property that interfaces with CategoryViewController
+    var selectedCategory: Category? {
+        // code below triggers once optional variable is set
+        didSet {
+            
+            // load data from CoreData
+            loadItems()
+            
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        // load data from Items.plist
-        loadItems()
+        searchBar.delegate = self
         
     }
     
@@ -57,6 +70,12 @@ class TodoListViewController: UITableViewController {
         // this method is called whenever a row is selected
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        // code for deleting item
+        // watch this YouTube video to implement 'swipe to delete' functionality:
+        // https://www.youtube.com/watch?v=wUVfE8cY2Hw
+//        context.delete(itemArray[indexPath.row])
+//        itemArray.remove(at: indexPath.row)
+        
         // check done property of each item in itemArray
         itemArray[indexPath.row].done = !itemArray[indexPath.row].done
         
@@ -80,9 +99,11 @@ class TodoListViewController: UITableViewController {
         // UIAlertAction object (closure will fire whenever addButton is pressed)
         let action = UIAlertAction(title: "Add Item", style: .default) { (action) in
             
-            // TODO: - append item to itemArray
-            let newItem = Item()
+            // append item to itemArray
+            let newItem = Item(context: self.context)
             newItem.title = textField.text!
+            newItem.done = false
+            newItem.category = self.selectedCategory
             self.itemArray.append(newItem)
             
             // saveItem to Items.plist (with NSCoder)
@@ -112,42 +133,80 @@ class TodoListViewController: UITableViewController {
     // MARK: - Model Manipulation Methods
     func saveItem() {
         
-        // create PropertListEncoder instance
-        let encoder = PropertyListEncoder()
-        
         do {
-            // encode data
-            let data = try encoder.encode(itemArray)
-            // write data to dataFilePath
-            try data.write(to: dataFilePath!)
+            try context.save()
         }
         catch {
-            print("Error saving data: \(error)")
+            print("Error saving context \(error)")
         }
         
         // TODO: - reload data in tableView
-        self.tableView.reloadData()
+        tableView.reloadData()
     }
     
-    func loadItems() {
+    func loadItems(with request: NSFetchRequest<Item> = Item.fetchRequest(), predicate: NSPredicate? = nil) {
         
-        // create constant to store data retrieved from Items.plist
-        if let data = try? Data(contentsOf: dataFilePath!) {
-            
-            // create PropertyListDecoder instance
-            let decoder = PropertyListDecoder()
-            
-            // decode data into itemArray
-            do {
-                itemArray = try decoder.decode([Item].self, from: data)
-            }
-            catch {
-                print("Error loading items: \(error)")
-            }
-            
+        // predicate to filter items by category
+        let categoryPredicate = NSPredicate(format: "category.name MATCHES %@", selectedCategory!.name!)
+        
+        // conditionally create compount predicate
+        if let additionalPredicate = predicate {
+            request.predicate = NSCompoundPredicate(andPredicateWithSubpredicates: [categoryPredicate, additionalPredicate])
         }
+        else {
+            request.predicate = categoryPredicate
+        }
+        
+        // carry out fetch via context
+        do {
+            // this method returns an NSFetchResult which is [Item]
+            itemArray = try context.fetch(request)
+        }
+        catch {
+            print("Error fetching data from context \(error)")
+        }
+        
+        // TODO: - reload data in tableView
+        tableView.reloadData()
         
     }
 
 }
 
+// MARK: - Search Bar Delegate Methods
+extension TodoListViewController: UISearchBarDelegate {
+    
+    // triggered when search button is clicked
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        
+        // create fetch request
+        let request : NSFetchRequest<Item> = Item.fetchRequest()
+        
+        // create core data query using NSPredicate and add to request
+        let searchPredicate = NSPredicate(format: "title CONTAINS[cd] %@", searchBar.text!)
+        
+        // specify rule to sort results and add to request
+        request.sortDescriptors = [NSSortDescriptor(key: "title", ascending: true)]
+        
+        // fetch based on query
+        loadItems(with: request, predicate: searchPredicate)
+        
+    }
+    
+    // triggered when text in searchbar changes
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        
+        // if searchBar is empty
+        if searchBar.text?.count == 0 {
+            // fetch all items
+            loadItems()
+            
+            // dismiss keyboard and searchBar cursor on main thread
+            DispatchQueue.main.async {
+                searchBar.resignFirstResponder()
+            }
+        }
+        
+    }
+    
+}

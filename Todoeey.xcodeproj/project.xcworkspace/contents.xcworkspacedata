@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Todoeey.xcodeproj">
+      location = "group:/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/Todoeey/Data Model">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
