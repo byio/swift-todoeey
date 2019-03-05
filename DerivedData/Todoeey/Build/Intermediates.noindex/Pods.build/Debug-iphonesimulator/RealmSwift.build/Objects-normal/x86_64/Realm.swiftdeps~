@@ -1,0 +1,424 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Realm"
+- "NotificationBlock"
+- "=="
+provides-nominal:
+- "10RealmSwift0A0C"
+- "10RealmSwift0A0C12NotificationO"
+provides-member:
+- ["10RealmSwift0A0C", ""]
+- ["10RealmSwift0A0C12NotificationO", ""]
+- ["10RealmSwift0A0C", "Notification"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "Data"
+- "Dictionary"
+- "DispatchQueue"
+- "DynamicObject"
+- "Equatable"
+- "List"
+- "NotificationBlock"
+- "NotificationToken"
+- "Object"
+- !private "Optional"
+- !private "RLMAddObjectToRealm"
+- !private "RLMCreateObjectInRealmWithValue"
+- !private "RLMDeleteAllObjectsFromRealm"
+- !private "RLMDeleteObjectFromRealm"
+- !private "RLMGetObject"
+- !private "RLMGetObjects"
+- "RLMRealm"
+- !private "RLMRealmConfiguration"
+- "Realm"
+- "Results"
+- "Schema"
+- "Sequence"
+- "String"
+- "StringLiteralType"
+- "Swift"
+- "URL"
+- !private "UnicodeScalarType"
+- "Void"
+- !private "_findStringSwitchCase"
+- !private "dynamicBridgeCast"
+- !private "noWarnUnsafeBitCast"
+- !private "throwRealmException"
+- !private "unsafeBitCast"
+- !private "unsafeDowncast"
+- !private "~="
+depends-member:
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "_rlmArray"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "className"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "objectSchema"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "rlmResults"]
+- !private ["SK", "_rlmArray"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "rlmResults"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "rlmResults"]
+- !private ["Sl", "_rlmArray"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "rlmResults"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["10RealmSwift0A0C13ConfigurationV", "defaultConfiguration"]
+- !private ["10RealmSwift0A0C13ConfigurationV", "fileURL"]
+- !private ["10RealmSwift0A0C13ConfigurationV", "fromRLMRealmConfiguration"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "rlmResults"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_rlmArray"]
+- !private ["s23CustomStringConvertibleP", "className"]
+- !private ["s23CustomStringConvertibleP", "defaultConfiguration"]
+- !private ["s23CustomStringConvertibleP", "fileURL"]
+- !private ["s23CustomStringConvertibleP", "fromRLMRealmConfiguration"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "primaryKeyProperty"]
+- !private ["s23CustomStringConvertibleP", "rlmResults"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- ["10RealmSwift13DynamicObjectC", "deinit"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "init"]
+- ["SE", "init"]
+- ["SQ", "Configuration"]
+- !private ["SQ", "DynamicObject"]
+- ["SQ", "Notification"]
+- !private ["SQ", "Optional"]
+- !private ["SQ", "RLMAddObjectToRealm"]
+- !private ["SQ", "RLMCreateObjectInRealmWithValue"]
+- !private ["SQ", "RLMDeleteAllObjectsFromRealm"]
+- !private ["SQ", "RLMDeleteObjectFromRealm"]
+- !private ["SQ", "RLMGetObject"]
+- !private ["SQ", "RLMGetObjects"]
+- ["SQ", "RLMRealm"]
+- !private ["SQ", "RLMRealmConfiguration"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "Realm"]
+- !private ["SQ", "Results"]
+- !private ["SQ", "Schema"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "add"]
+- !private ["SQ", "beginWrite"]
+- !private ["SQ", "cancelWrite"]
+- !private ["SQ", "className"]
+- !private ["SQ", "commitWrite"]
+- !private ["SQ", "delete"]
+- !private ["SQ", "dynamicBridgeCast"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "isInWriteTransaction"]
+- !private ["SQ", "main"]
+- !private ["SQ", "noWarnUnsafeBitCast"]
+- !private ["SQ", "objectSchema"]
+- !private ["SQ", "primaryKeyProperty"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "rlmRealm"]
+- !private ["SQ", "rlmResults"]
+- !private ["SQ", "schema"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "throwRealmException"]
+- !private ["SQ", "unsafeBitCast"]
+- !private ["SQ", "unsafeDowncast"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "main"]
+- ["SH", "rawValue"]
+- !private ["SH", "rlmResults"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22LazyCollectionProtocolP", "_rlmArray"]
+- !private ["s22LazyCollectionProtocolP", "rlmResults"]
+- !private ["s20LazySequenceProtocolP", "_rlmArray"]
+- !private ["s20LazySequenceProtocolP", "rlmResults"]
+- !private ["10RealmSwift4ListC", "_rlmArray"]
+- !private ["10RealmSwift8ListBaseC", "_rlmArray"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "_rlmArray"]
+- !private ["So17NSFastEnumerationP", "rlmResults"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "rlmResults"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "rlmResults"]
+- ["10RealmSwift0A0C12NotificationO", "RawValue"]
+- ["10RealmSwift0A0C12NotificationO", "_Default_RawValue"]
+- !private ["10RealmSwift0A0C12NotificationO", "_findStringSwitchCase"]
+- ["10RealmSwift0A0C12NotificationO", "deinit"]
+- ["10RealmSwift0A0C12NotificationO", "didChange"]
+- ["10RealmSwift0A0C12NotificationO", "hash"]
+- ["10RealmSwift0A0C12NotificationO", "hashValue"]
+- ["10RealmSwift0A0C12NotificationO", "init"]
+- ["10RealmSwift0A0C12NotificationO", "rawValue"]
+- ["10RealmSwift0A0C12NotificationO", "refreshRequired"]
+- !private ["So9OS_objectC", "main"]
+- !private ["10RealmSwift6ObjectC", "className"]
+- !private ["10RealmSwift6ObjectC", "objectSchema"]
+- !private ["10RealmSwift12ObjectSchemaV", "className"]
+- !private ["10RealmSwift12ObjectSchemaV", "primaryKeyProperty"]
+- !private ["10RealmSwift8PropertyV", "deinit"]
+- !private ["Sk", "_rlmArray"]
+- !private ["Sk", "rlmResults"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- ["10RealmSwift0A0C", "=="]
+- ["10RealmSwift0A0C", "Bool"]
+- ["10RealmSwift0A0C", "Configuration"]
+- ["10RealmSwift0A0C", "Data"]
+- ["10RealmSwift0A0C", "DispatchQueue"]
+- ["10RealmSwift0A0C", "DynamicObject"]
+- ["10RealmSwift0A0C", "List"]
+- ["10RealmSwift0A0C", "Notification"]
+- ["10RealmSwift0A0C", "NotificationBlock"]
+- ["10RealmSwift0A0C", "NotificationToken"]
+- ["10RealmSwift0A0C", "Object"]
+- !private ["10RealmSwift0A0C", "Optional"]
+- !private ["10RealmSwift0A0C", "RLMAddObjectToRealm"]
+- !private ["10RealmSwift0A0C", "RLMCreateObjectInRealmWithValue"]
+- !private ["10RealmSwift0A0C", "RLMDeleteAllObjectsFromRealm"]
+- !private ["10RealmSwift0A0C", "RLMDeleteObjectFromRealm"]
+- !private ["10RealmSwift0A0C", "RLMGetObject"]
+- !private ["10RealmSwift0A0C", "RLMGetObjects"]
+- ["10RealmSwift0A0C", "RLMRealm"]
+- !private ["10RealmSwift0A0C", "RLMRealmConfiguration"]
+- ["10RealmSwift0A0C", "Realm"]
+- ["10RealmSwift0A0C", "Results"]
+- ["10RealmSwift0A0C", "Schema"]
+- ["10RealmSwift0A0C", "Sequence"]
+- ["10RealmSwift0A0C", "String"]
+- ["10RealmSwift0A0C", "Swift"]
+- ["10RealmSwift0A0C", "URL"]
+- ["10RealmSwift0A0C", "Void"]
+- !private ["10RealmSwift0A0C", "_findStringSwitchCase"]
+- ["10RealmSwift0A0C", "add"]
+- ["10RealmSwift0A0C", "asyncOpen"]
+- ["10RealmSwift0A0C", "autorefresh"]
+- ["10RealmSwift0A0C", "beginWrite"]
+- ["10RealmSwift0A0C", "cancelWrite"]
+- !private ["10RealmSwift0A0C", "commitWrite"]
+- ["10RealmSwift0A0C", "configuration"]
+- ["10RealmSwift0A0C", "create"]
+- ["10RealmSwift0A0C", "deinit"]
+- ["10RealmSwift0A0C", "delete"]
+- ["10RealmSwift0A0C", "deleteAll"]
+- !private ["10RealmSwift0A0C", "dynamicBridgeCast"]
+- ["10RealmSwift0A0C", "dynamicCreate"]
+- ["10RealmSwift0A0C", "dynamicObject"]
+- ["10RealmSwift0A0C", "dynamicObjects"]
+- ["10RealmSwift0A0C", "init"]
+- !private ["10RealmSwift0A0C", "init"]
+- ["10RealmSwift0A0C", "invalidate"]
+- ["10RealmSwift0A0C", "isEmpty"]
+- ["10RealmSwift0A0C", "isInWriteTransaction"]
+- !private ["10RealmSwift0A0C", "noWarnUnsafeBitCast"]
+- ["10RealmSwift0A0C", "object"]
+- ["10RealmSwift0A0C", "objects"]
+- ["10RealmSwift0A0C", "refresh"]
+- !private ["10RealmSwift0A0C", "rlmRealm"]
+- ["10RealmSwift0A0C", "schema"]
+- !private ["10RealmSwift0A0C", "throwRealmException"]
+- !private ["10RealmSwift0A0C", "unsafeBitCast"]
+- !private ["10RealmSwift0A0C", "unsafeDowncast"]
+- ["10RealmSwift0A0C", "write"]
+- ["10RealmSwift0A0C", "writeCopy"]
+- !private ["10RealmSwift0A10CollectionP", "_rlmArray"]
+- !private ["10RealmSwift0A10CollectionP", "rlmResults"]
+- !private ["10RealmSwift0A14CollectionBaseP", "_rlmArray"]
+- !private ["10RealmSwift0A14CollectionBaseP", "rlmResults"]
+- !private ["10RealmSwift0A15CollectionValueP", "_getBuiltinLogicValue"]
+- !private ["10RealmSwift0A15CollectionValueP", "className"]
+- ["10RealmSwift0A15CollectionValueP", "init"]
+- ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "objectSchema"]
+- !private ["10RealmSwift0A12OptionalTypeP", "_getBuiltinLogicValue"]
+- !private ["10RealmSwift7ResultsC", "rlmResults"]
+- ["10RealmSwift6SchemaV", "init"]
+- !private ["10RealmSwift6SchemaV", "subscript"]
+- !private ["ST", "_rlmArray"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "rlmResults"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10RealmSwift14ThreadConfinedP", "_rlmArray"]
+- !private ["10RealmSwift14ThreadConfinedP", "className"]
+- !private ["10RealmSwift14ThreadConfinedP", "objectSchema"]
+- !private ["10RealmSwift14ThreadConfinedP", "rlmResults"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rlmResults"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "10RealmSwift28AssistedObjectiveCBridgeableP"
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "10RealmSwift0A0C13ConfigurationV"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "10RealmSwift13DynamicObjectC"
+- "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "s22LazyCollectionProtocolP"
+- !private "s20LazySequenceProtocolP"
+- !private "10RealmSwift4ListC"
+- !private "10RealmSwift8ListBaseC"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "So17NSFastEnumerationP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- "10RealmSwift0A0C12NotificationO"
+- !private "So9OS_objectC"
+- !private "10RealmSwift6ObjectC"
+- !private "10RealmSwift12ObjectSchemaV"
+- !private "10RealmSwift8PropertyV"
+- !private "Sk"
+- "Sm"
+- "SY"
+- "10RealmSwift0A0C"
+- !private "10RealmSwift0A10CollectionP"
+- !private "10RealmSwift0A14CollectionBaseP"
+- "10RealmSwift0A15CollectionValueP"
+- !private "10RealmSwift0A12OptionalTypeP"
+- !private "10RealmSwift7ResultsC"
+- "10RealmSwift6SchemaV"
+- "ST"
+- !private "s12StaticStringV"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10RealmSwift14ThreadConfinedP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h"
+- "/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/DerivedData/Todoeey/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/unextended-module.modulemap"
+- "/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/DerivedData/Todoeey/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Realm.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a1e2f385df1514d9cd52131780b9390b"
