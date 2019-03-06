@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>4723118C-91A4-41BE-A265-FE8756559371</key>
+		<key>43D1002D-6D0D-4E97-9843-08CA74ECA5BA</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,21 +15,21 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>4723118C-91A4-41BE-A265-FE8756559371.xcactivitylog</string>
+			<string>43D1002D-6D0D-4E97-9843-08CA74ECA5BA.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>signature</key>
 			<string>Todoeey-hfwtrpnzrqzeblgoouebhekfqvjh</string>
 			<key>timeStartedRecording</key>
-			<real>573558674.03687406</real>
+			<real>573568782.42095494</real>
 			<key>timeStoppedRecording</key>
-			<real>573558676.41589403</real>
+			<real>573568785.66431499</real>
 			<key>title</key>
 			<string>Build target Todoeey</string>
 			<key>uniqueIdentifier</key>
-			<string>4723118C-91A4-41BE-A265-FE8756559371</string>
+			<string>43D1002D-6D0D-4E97-9843-08CA74ECA5BA</string>
 		</dict>
-		<key>57A3CE61-D6C2-4936-B8D9-57F9F83A70C4</key>
+		<key>5AF61434-BE4E-4326-B470-6036B93B46B9</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -38,44 +38,21 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>57A3CE61-D6C2-4936-B8D9-57F9F83A70C4.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>Pods-Todoeey-hagcgavtqtauradkexxjumrfmume</string>
-			<key>timeStartedRecording</key>
-			<real>573468766.72922301</real>
-			<key>timeStoppedRecording</key>
-			<real>573468767.97887897</real>
-			<key>title</key>
-			<string>Build target Pods-Todoeey</string>
-			<key>uniqueIdentifier</key>
-			<string>57A3CE61-D6C2-4936-B8D9-57F9F83A70C4</string>
-		</dict>
-		<key>5F167E78-1562-4355-A386-EED65DAEA70C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>5F167E78-1562-4355-A386-EED65DAEA70C.xcactivitylog</string>
+			<string>5AF61434-BE4E-4326-B470-6036B93B46B9.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>signature</key>
 			<string>RealmSwift-hagcgavtqtauradkexxjumrfmume</string>
 			<key>timeStartedRecording</key>
-			<real>573536931.94219506</real>
+			<real>573567096.628708</real>
 			<key>timeStoppedRecording</key>
-			<real>573536932.00517905</real>
+			<real>573567101.85187995</real>
 			<key>title</key>
 			<string>Build target RealmSwift</string>
 			<key>uniqueIdentifier</key>
-			<string>5F167E78-1562-4355-A386-EED65DAEA70C</string>
+			<string>5AF61434-BE4E-4326-B470-6036B93B46B9</string>
 		</dict>
-		<key>F1DB8450-D1FD-4710-BEC9-31E6563C64ED</key>
+		<key>73B35CDC-CA97-4345-97F1-A69767A1152D</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -84,19 +61,65 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>F1DB8450-D1FD-4710-BEC9-31E6563C64ED.xcactivitylog</string>
+			<string>73B35CDC-CA97-4345-97F1-A69767A1152D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>SwipeCellKit-hagcgavtqtauradkexxjumrfmume</string>
+			<key>timeStartedRecording</key>
+			<real>573567096.29639101</real>
+			<key>timeStoppedRecording</key>
+			<real>573567101.86077595</real>
+			<key>title</key>
+			<string>Build target SwipeCellKit</string>
+			<key>uniqueIdentifier</key>
+			<string>73B35CDC-CA97-4345-97F1-A69767A1152D</string>
+		</dict>
+		<key>B37E32B0-D871-4F58-A224-CAAC6E7FC5C6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>B37E32B0-D871-4F58-A224-CAAC6E7FC5C6.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>signature</key>
 			<string>Realm-hagcgavtqtauradkexxjumrfmume</string>
 			<key>timeStartedRecording</key>
-			<real>573538200.85896802</real>
+			<real>573567003.78916895</real>
 			<key>timeStoppedRecording</key>
-			<real>573538200.90014696</real>
+			<real>573567096.62626004</real>
 			<key>title</key>
 			<string>Build target Realm</string>
 			<key>uniqueIdentifier</key>
-			<string>F1DB8450-D1FD-4710-BEC9-31E6563C64ED</string>
+			<string>B37E32B0-D871-4F58-A224-CAAC6E7FC5C6</string>
+		</dict>
+		<key>F366B000-7E90-4056-9885-2F96B38B1647</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>F366B000-7E90-4056-9885-2F96B38B1647.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Pods-Todoeey-hagcgavtqtauradkexxjumrfmume</string>
+			<key>timeStartedRecording</key>
+			<real>573567101.86213303</real>
+			<key>timeStoppedRecording</key>
+			<real>573567102.07703698</real>
+			<key>title</key>
+			<string>Build target Pods-Todoeey</string>
+			<key>uniqueIdentifier</key>
+			<string>F366B000-7E90-4056-9885-2F96B38B1647</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

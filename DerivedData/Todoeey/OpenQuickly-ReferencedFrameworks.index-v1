@@ -2,7 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<string>Foundation</string>
+	<string>SwipeCellKit</string>
+	<string>sys</string>
 	<string>net</string>
 	<string>RealmSwift</string>
 	<string>CommonCrypto</string>
@@ -10,6 +11,6 @@
 	<string>realm</string>
 	<string>UIKit</string>
 	<string>Realm</string>
-	<string>sys</string>
+	<string>Foundation</string>
 </array>
 </plist>

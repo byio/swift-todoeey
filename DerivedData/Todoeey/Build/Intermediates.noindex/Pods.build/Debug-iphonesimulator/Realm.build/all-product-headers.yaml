@@ -77,6 +77,33 @@
           'external-contents': "/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/DerivedData/Todoeey/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/module.modulemap"
         }
       ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/DerivedData/Todoeey/Build/Products/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwipeCellKit-Swift.h",
+          'external-contents': "/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/DerivedData/Todoeey/Build/Products/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwipeCellKit-umbrella.h",
+          'external-contents': "/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/Pods/Target Support Files/SwipeCellKit/SwipeCellKit-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/DerivedData/Todoeey/Build/Products/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/DerivedData/Todoeey/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwipeCellKit.build/module.modulemap"
+        }
+      ]
     }
   ]
 }
