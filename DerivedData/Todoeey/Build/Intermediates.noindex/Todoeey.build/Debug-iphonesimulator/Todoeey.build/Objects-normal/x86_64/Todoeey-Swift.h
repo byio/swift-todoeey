@@ -163,8 +163,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # define SWIFT_DEPRECATED_OBJC(Msg) SWIFT_DEPRECATED_MSG(Msg)
 #endif
 #if __has_feature(modules)
-@import CoreData;
 @import Foundation;
+@import RealmSwift;
 @import UIKit;
 #endif
 
@@ -190,32 +190,19 @@ SWIFT_CLASS("_TtC7Todoeey11AppDelegate")
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 @property (nonatomic, strong) UIWindow * _Nullable window;
 - (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions SWIFT_WARN_UNUSED_RESULT;
-- (void)applicationWillTerminate:(UIApplication * _Nonnull)application;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSEntityDescription;
-@class NSManagedObjectContext;
+@class RLMRealm;
+@class RLMObjectSchema;
+@class RLMSchema;
 
-SWIFT_CLASS_NAMED("Category")
-@interface Category : NSManagedObject
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class Item;
-@class NSSet;
-
-@interface Category (SWIFT_EXTENSION(Todoeey))
-- (void)addItemsObject:(Item * _Nonnull)value;
-- (void)removeItemsObject:(Item * _Nonnull)value;
-- (void)addItems:(NSSet * _Nonnull)values;
-- (void)removeItems:(NSSet * _Nonnull)values;
-@end
-
-
-@interface Category (SWIFT_EXTENSION(Todoeey))
-@property (nonatomic, copy) NSString * _Nullable name;
-@property (nonatomic, strong) NSSet * _Nullable items;
+SWIFT_CLASS("_TtC7Todoeey8Category")
+@interface Category : RealmSwiftObject
+@property (nonatomic, copy) NSString * _Nonnull name;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithRealm:(RLMRealm * _Nonnull)realm schema:(RLMObjectSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithValue:(id _Nonnull)value schema:(RLMSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UITableView;
@@ -239,16 +226,14 @@ SWIFT_CLASS("_TtC7Todoeey22CategoryViewController")
 @end
 
 
-SWIFT_CLASS_NAMED("Item")
-@interface Item : NSManagedObject
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface Item (SWIFT_EXTENSION(Todoeey))
+SWIFT_CLASS("_TtC7Todoeey4Item")
+@interface Item : RealmSwiftObject
+@property (nonatomic, copy) NSString * _Nonnull title;
 @property (nonatomic) BOOL done;
-@property (nonatomic, copy) NSString * _Nullable title;
-@property (nonatomic, strong) Category * _Nullable category;
+@property (nonatomic, copy) NSDate * _Nullable dateCreated;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithRealm:(RLMRealm * _Nonnull)realm schema:(RLMObjectSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithValue:(id _Nonnull)value schema:(RLMSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UISearchBar;

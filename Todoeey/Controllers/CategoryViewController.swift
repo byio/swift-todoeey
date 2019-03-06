@@ -7,14 +7,14 @@
 //
 
 import UIKit
-import CoreData
+import RealmSwift
 
 class CategoryViewController: UITableViewController {
     
-    // define persistent context for data manipulation
-    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    // create a new realm instance
+    let realm = try! Realm()
     
-    var categoryArray = [Category]()
+    var categories: Results<Category>?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +24,7 @@ class CategoryViewController: UITableViewController {
     
     // MARK: - TableView Delegate Methods
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+
         // perform goToItems segue
         performSegue(withIdentifier: "goToItems", sender: self)
         
@@ -37,7 +37,8 @@ class CategoryViewController: UITableViewController {
         
         // set selectedCategory property in TodoListVC to current category
         if let indexPath = tableView.indexPathForSelectedRow {
-            destinationVC.selectedCategory = categoryArray[indexPath.row]
+            // this can be nil because if destinationVC.selectedCategory is nil, items won't load
+            destinationVC.selectedCategory = categories?[indexPath.row]
         }
         
     }
@@ -45,14 +46,11 @@ class CategoryViewController: UITableViewController {
     // MARK: - TableView Data Source Methods
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        // grab category to display in cell
-        let category = categoryArray[indexPath.row]
-        
         // create reusable cell
         let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryCell", for: indexPath)
         
-        // update textLabel property of cell
-        cell.textLabel?.text = category.name
+        // update textLabel property of cell (defaults to "No Categories Added")
+        cell.textLabel?.text = categories?[indexPath.row].name ?? "No Categories Added"
         
         // return cell
         return cell
@@ -60,19 +58,22 @@ class CategoryViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return categoryArray.count
+        // nil coalescing operator; if categories != nil return count otherwise return 1
+        return categories?.count ?? 1
         
     }
     
     // MARK: - Data (Model) Manipulation Methods
-    func saveCategory() {
+    func save(category: Category) {
         
         // save input
         do {
-            try context.save()
+            try realm.write {
+                realm.add(category)
+            }
         }
         catch {
-            print("Error saving to context \(error)")
+            print("Error saving to realm \(error)")
         }
         
         // reload data in tableView
@@ -80,15 +81,10 @@ class CategoryViewController: UITableViewController {
         
     }
     
-    func loadCategories(with request: NSFetchRequest<Category> = Category.fetchRequest()) {
+    func loadCategories() {
         
         // fetch data
-        do {
-            categoryArray = try context.fetch(request)
-        }
-        catch {
-            print("Error fetching data from context \(error)")
-        }
+        categories = realm.objects(Category.self)
         
         // reload data in tableView
         tableView.reloadData()
@@ -108,12 +104,11 @@ class CategoryViewController: UITableViewController {
         let action = UIAlertAction(title: "Add Category", style: .default) { (action) in
             
             // append category to categoryArray
-            let newCategory = Category(context: self.context)
-            newCategory.name = textField.text
-            self.categoryArray.append(newCategory)
+            let newCategory = Category()
+            newCategory.name = textField.text!
             
             // save category
-            self.saveCategory()
+            self.save(category: newCategory)
             
         }
         

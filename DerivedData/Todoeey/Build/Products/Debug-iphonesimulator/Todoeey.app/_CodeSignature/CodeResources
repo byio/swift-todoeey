@@ -36,14 +36,6 @@
 		<data>
 		t6h3fOIb4eNm+joMz1Br5JWUmD0=
 		</data>
-		<key>DataModel.momd/DataModel.mom</key>
-		<data>
-		pXqZiM6Ocfyaf27tDWiZ/1cpAlA=
-		</data>
-		<key>DataModel.momd/VersionInfo.plist</key>
-		<data>
-		hBmwnN+mkXIGi6CeKxEjFeZebSU=
-		</data>
 		<key>Frameworks/Realm.framework/Info.plist</key>
 		<data>
 		fFzhgPcQ0b/YkGJxLLp1zF+7PNM=
@@ -193,20 +185,6 @@
 			<key>hash2</key>
 			<data>
 			+8UuFpMg7bjfw7H3xXwYVDLius4hUi1m9BUJepbG9gU=
-			</data>
-		</dict>
-		<key>DataModel.momd/DataModel.mom</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			r6mISgj8c9m9MPa8u5NgBsA1C5lcadGB14s9YbbZcNs=
-			</data>
-		</dict>
-		<key>DataModel.momd/VersionInfo.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yamP9EAeHmPNRttT9MrF9Hvv6lHAU8zvJWVTPP4lZII=
 			</data>
 		</dict>
 		<key>Frameworks/Realm.framework/Info.plist</key>
