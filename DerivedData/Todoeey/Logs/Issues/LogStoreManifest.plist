@@ -6,29 +6,6 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>403A6BDD-5486-4A97-8928-A5711F2AF25F</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>403A6BDD-5486-4A97-8928-A5711F2AF25F.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>Todoeey-hfwtrpnzrqzeblgoouebhekfqvjh</string>
-			<key>timeStartedRecording</key>
-			<real>573664929.54576302</real>
-			<key>timeStoppedRecording</key>
-			<real>573664933.77294505</real>
-			<key>title</key>
-			<string>Build target Todoeey</string>
-			<key>uniqueIdentifier</key>
-			<string>403A6BDD-5486-4A97-8928-A5711F2AF25F</string>
-		</dict>
 		<key>5540702B-5B71-47E3-ACD1-74A714F98494</key>
 		<dict>
 			<key>className</key>
@@ -120,6 +97,29 @@
 			<string>Build target ChameleonFramework</string>
 			<key>uniqueIdentifier</key>
 			<string>CC266C63-9A9E-40DB-A6A1-D3CBACDF927F</string>
+		</dict>
+		<key>FA1992F2-4AD1-47EF-AC0F-6AFD2389AD33</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>FA1992F2-4AD1-47EF-AC0F-6AFD2389AD33.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Todoeey-hfwtrpnzrqzeblgoouebhekfqvjh</string>
+			<key>timeStartedRecording</key>
+			<real>573695558.60350204</real>
+			<key>timeStoppedRecording</key>
+			<real>573695565.05852199</real>
+			<key>title</key>
+			<string>Build target Todoeey</string>
+			<key>uniqueIdentifier</key>
+			<string>FA1992F2-4AD1-47EF-AC0F-6AFD2389AD33</string>
 		</dict>
 		<key>FA22CC25-AE9E-4176-8EF0-8CF917CB59D8</key>
 		<dict>
