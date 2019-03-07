@@ -206,14 +206,24 @@ SWIFT_CLASS("_TtC7Todoeey8Category")
 @end
 
 @class UITableView;
-@class UIStoryboardSegue;
 @class UITableViewCell;
-@class UIBarButtonItem;
 @class NSBundle;
 @class NSCoder;
 
+SWIFT_CLASS("_TtC7Todoeey24SwipeTableViewController")
+@interface SwipeTableViewController : UITableViewController
+- (void)viewDidLoad;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIStoryboardSegue;
+@class UIBarButtonItem;
+
 SWIFT_CLASS("_TtC7Todoeey22CategoryViewController")
-@interface CategoryViewController : UITableViewController
+@interface CategoryViewController : SwipeTableViewController
 - (void)viewDidLoad;
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
@@ -226,8 +236,6 @@ SWIFT_CLASS("_TtC7Todoeey22CategoryViewController")
 @end
 
 
-
-
 SWIFT_CLASS("_TtC7Todoeey4Item")
 @interface Item : RealmSwiftObject
 @property (nonatomic, copy) NSString * _Nonnull title;
@@ -237,6 +245,7 @@ SWIFT_CLASS("_TtC7Todoeey4Item")
 - (nonnull instancetype)initWithRealm:(RLMRealm * _Nonnull)realm schema:(RLMObjectSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithValue:(id _Nonnull)value schema:(RLMSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 @class UISearchBar;
 
