@@ -250,7 +250,7 @@ SWIFT_CLASS("_TtC7Todoeey4Item")
 @class UISearchBar;
 
 SWIFT_CLASS("_TtC7Todoeey22TodoListViewController")
-@interface TodoListViewController : UITableViewController
+@interface TodoListViewController : SwipeTableViewController
 @property (nonatomic, weak) IBOutlet UISearchBar * _Null_unspecified searchBar;
 - (void)viewDidLoad;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
