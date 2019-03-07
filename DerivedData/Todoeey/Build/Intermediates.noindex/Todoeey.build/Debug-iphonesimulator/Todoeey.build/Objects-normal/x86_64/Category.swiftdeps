@@ -6,6 +6,7 @@ provides-nominal:
 provides-member:
 - ["7Todoeey8CategoryC", ""]
 provides-dynamic-lookup:
+- "cellColorHex"
 - "name"
 depends-top-level:
 - "Category"
@@ -28,6 +29,8 @@ depends-member:
 - ["7Todoeey8CategoryC", "Item"]
 - ["7Todoeey8CategoryC", "List"]
 - ["7Todoeey8CategoryC", "String"]
+- ["7Todoeey8CategoryC", "cellColorHex"]
+- ["7Todoeey8CategoryC", "deinit"]
 - ["7Todoeey8CategoryC", "init"]
 - ["7Todoeey8CategoryC", "items"]
 - ["7Todoeey8CategoryC", "name"]
@@ -78,6 +81,7 @@ depends-member:
 - ["So8NSObjectC", "Item"]
 - ["So8NSObjectC", "List"]
 - ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "cellColorHex"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "items"]
@@ -90,6 +94,7 @@ depends-member:
 - ["10RealmSwift6ObjectC", "List"]
 - ["10RealmSwift6ObjectC", "String"]
 - ["10RealmSwift6ObjectC", ""]
+- ["10RealmSwift6ObjectC", "cellColorHex"]
 - ["10RealmSwift6ObjectC", "init"]
 - !private ["10RealmSwift6ObjectC", "init"]
 - ["10RealmSwift6ObjectC", "items"]
@@ -97,6 +102,7 @@ depends-member:
 - ["So13RLMObjectBaseC", "Item"]
 - ["So13RLMObjectBaseC", "List"]
 - ["So13RLMObjectBaseC", "String"]
+- ["So13RLMObjectBaseC", "cellColorHex"]
 - ["So13RLMObjectBaseC", "init"]
 - !private ["So13RLMObjectBaseC", "init"]
 - ["So13RLMObjectBaseC", "items"]
@@ -270,4 +276,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "e6e51274af42a0027589facfcb48a6be"
+interface-hash: "52db0796aab287caf32e16a8c64a5465"

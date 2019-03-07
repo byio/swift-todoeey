@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "b7bfee8cc977ba259b8f0e257c1a3130"
+build_time: [1551971937, 65925000]
+inputs:
+  "/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/Pods/ChameleonFramework/Pod/Classes/Swift/ChameleonShorthand.swift": !dirty [1551971293, 0]

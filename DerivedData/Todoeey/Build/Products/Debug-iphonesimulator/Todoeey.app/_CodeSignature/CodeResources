@@ -36,13 +36,25 @@
 		<data>
 		enYgTc6i3gerzKdgwFUHo4w+IoE=
 		</data>
+		<key>Frameworks/ChameleonFramework.framework/ChameleonFramework</key>
+		<data>
+		D6WFuewssBaiZQ5RtmlngLS2aLw=
+		</data>
+		<key>Frameworks/ChameleonFramework.framework/Info.plist</key>
+		<data>
+		6Kl+9sDrXT+RTaVVIA00rvkeh8Y=
+		</data>
+		<key>Frameworks/ChameleonFramework.framework/_CodeSignature/CodeResources</key>
+		<data>
+		+7XlZjQPAW3WHpqv7xwuWY2CEPo=
+		</data>
 		<key>Frameworks/Realm.framework/Info.plist</key>
 		<data>
 		fFzhgPcQ0b/YkGJxLLp1zF+7PNM=
 		</data>
 		<key>Frameworks/Realm.framework/Realm</key>
 		<data>
-		ZXA8gkLR1BthyQ6bTq2oMEqK3+E=
+		DCcQXgmlpyNQOgFVDHwzd+v0hdI=
 		</data>
 		<key>Frameworks/Realm.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -54,7 +66,7 @@
 		</data>
 		<key>Frameworks/RealmSwift.framework/RealmSwift</key>
 		<data>
-		zSKhnvieuPLgnxa37XztfWdC8hA=
+		dOiFZp05bwjKvQqnYT6xx9JU0jU=
 		</data>
 		<key>Frameworks/RealmSwift.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -66,7 +78,7 @@
 		</data>
 		<key>Frameworks/SwipeCellKit.framework/SwipeCellKit</key>
 		<data>
-		fvXKIevcDGQsAiBq/31vedNdP80=
+		exwS/5D0zJ/oFJhTSgpihxO2l78=
 		</data>
 		<key>Frameworks/SwipeCellKit.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -199,6 +211,27 @@
 			7VBchXIP2zYANjHRkJe6H8qbMqvXRMsOeszhQGVSMio=
 			</data>
 		</dict>
+		<key>Frameworks/ChameleonFramework.framework/ChameleonFramework</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			L/P0BkTlwcWJ572UZbO96eL2nQYGnq1qLKOtabOq9Aw=
+			</data>
+		</dict>
+		<key>Frameworks/ChameleonFramework.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UtlEL3ztEnnBwCTUCV7BW1H9HDsEgtO+0VDqfZXEUJg=
+			</data>
+		</dict>
+		<key>Frameworks/ChameleonFramework.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FzXSps0bZgU75Exz8p2bBjZ/dSN1XO6jqvfjdUWvERc=
+			</data>
+		</dict>
 		<key>Frameworks/Realm.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -210,7 +243,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			32/Fkm/uCTOvOePaf2xgyEEALjMAJeSXzQQT69bOc00=
+			RP6UevsOT7vlagyLYRtuA5x/FuRx56JWsIszMl3ERM4=
 			</data>
 		</dict>
 		<key>Frameworks/Realm.framework/_CodeSignature/CodeResources</key>
@@ -231,7 +264,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0w2+hFLnK4XXwhGpi3BlLvmHCXbYfGAJ9LFUg0xicU4=
+			l+UejjNJtUgcokeIGSsuh235L1tTE0y2pXE7bP4PfJI=
 			</data>
 		</dict>
 		<key>Frameworks/RealmSwift.framework/_CodeSignature/CodeResources</key>
@@ -252,7 +285,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rG5pywi5vwZ1GWOS8PyYOQmsCG5KQt8s0FmO+nK51aQ=
+			TO7qfVpaooCZsA3nYIbtfc+eERnJwS0ugZ9piogwWy4=
 			</data>
 		</dict>
 		<key>Frameworks/SwipeCellKit.framework/_CodeSignature/CodeResources</key>
