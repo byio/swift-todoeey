@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "64209f3fa37cc685eebe7b9804ebc21f"
-build_time: [1551872044, 150332000]
+build_time: [1551971301, 574361000]
 inputs:
   "/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/Pods/SwipeCellKit/Source/Extensions.swift": [1551870882, 0]
   "/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/Pods/SwipeCellKit/Source/Swipeable.swift": [1551870882, 0]
