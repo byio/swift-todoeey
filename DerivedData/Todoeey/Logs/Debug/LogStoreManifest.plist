@@ -6,6 +6,64 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
+		<key>02143CA0-A570-478B-9156-58C93A564C25</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>02143CA0-A570-478B-9156-58C93A564C25.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Todoeey project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Todoeey</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Todoeey</string>
+			<key>timeStartedRecording</key>
+			<real>573737998.15876806</real>
+			<key>timeStoppedRecording</key>
+			<real>573738014.98924601</real>
+			<key>title</key>
+			<string>Debug Todoeey</string>
+			<key>uniqueIdentifier</key>
+			<string>02143CA0-A570-478B-9156-58C93A564C25</string>
+		</dict>
+		<key>06282E6B-A339-438D-9455-FA8E73624F55</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>06282E6B-A339-438D-9455-FA8E73624F55.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Todoeey project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Todoeey</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Todoeey</string>
+			<key>timeStartedRecording</key>
+			<real>573739159.74099803</real>
+			<key>timeStoppedRecording</key>
+			<real>573739173.29016602</real>
+			<key>title</key>
+			<string>Debug Todoeey</string>
+			<key>uniqueIdentifier</key>
+			<string>06282E6B-A339-438D-9455-FA8E73624F55</string>
+		</dict>
 		<key>0CE1EAE8-5E64-4E6C-B062-DD921F2BC6F2</key>
 		<dict>
 			<key>className</key>
@@ -63,6 +121,93 @@
 			<string>Debug Todoeey</string>
 			<key>uniqueIdentifier</key>
 			<string>10B9AD20-23A1-4E72-B027-DCFC3127B413</string>
+		</dict>
+		<key>10E094BC-18F9-49DF-8CC2-7C2084E5527B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>10E094BC-18F9-49DF-8CC2-7C2084E5527B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Todoeey project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Todoeey</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Todoeey</string>
+			<key>timeStartedRecording</key>
+			<real>573736446.94736302</real>
+			<key>timeStoppedRecording</key>
+			<real>573737836.61521602</real>
+			<key>title</key>
+			<string>Debug Todoeey</string>
+			<key>uniqueIdentifier</key>
+			<string>10E094BC-18F9-49DF-8CC2-7C2084E5527B</string>
+		</dict>
+		<key>193BA29B-9A84-4A17-805B-64B7D55DC349</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>193BA29B-9A84-4A17-805B-64B7D55DC349.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Todoeey project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Todoeey</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Todoeey</string>
+			<key>timeStartedRecording</key>
+			<real>573735312.81211305</real>
+			<key>timeStoppedRecording</key>
+			<real>573735339.41535699</real>
+			<key>title</key>
+			<string>Debug Todoeey</string>
+			<key>uniqueIdentifier</key>
+			<string>193BA29B-9A84-4A17-805B-64B7D55DC349</string>
+		</dict>
+		<key>25FD86A7-3ADA-49C9-AD3B-F2174B736EBE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>25FD86A7-3ADA-49C9-AD3B-F2174B736EBE.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Todoeey project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Todoeey</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Todoeey</string>
+			<key>timeStartedRecording</key>
+			<real>573738930.13341296</real>
+			<key>timeStoppedRecording</key>
+			<real>573738949.201828</real>
+			<key>title</key>
+			<string>Debug Todoeey</string>
+			<key>uniqueIdentifier</key>
+			<string>25FD86A7-3ADA-49C9-AD3B-F2174B736EBE</string>
 		</dict>
 		<key>28A416E3-84DC-4883-9A4D-B51606C44CA9</key>
 		<dict>
@@ -238,6 +383,35 @@
 			<key>uniqueIdentifier</key>
 			<string>64797D64-5514-4634-A194-C12E00943074</string>
 		</dict>
+		<key>6638D427-C72B-48FF-8A28-04DC4F81206C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6638D427-C72B-48FF-8A28-04DC4F81206C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Todoeey project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Todoeey</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Todoeey</string>
+			<key>timeStartedRecording</key>
+			<real>573739349.17147994</real>
+			<key>timeStoppedRecording</key>
+			<real>573739366.98888695</real>
+			<key>title</key>
+			<string>Debug Todoeey</string>
+			<key>uniqueIdentifier</key>
+			<string>6638D427-C72B-48FF-8A28-04DC4F81206C</string>
+		</dict>
 		<key>68755BCA-C50B-40A2-A8EB-61F69C84C52E</key>
 		<dict>
 			<key>className</key>
@@ -412,6 +586,35 @@
 			<key>uniqueIdentifier</key>
 			<string>8555FB59-69C4-4BF2-9FC7-6757A4CC60C5</string>
 		</dict>
+		<key>86EDAE31-A177-4EA8-8187-EE9C9C0CDB42</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>86EDAE31-A177-4EA8-8187-EE9C9C0CDB42.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Todoeey project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Todoeey</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Todoeey</string>
+			<key>timeStartedRecording</key>
+			<real>573735699.99487996</real>
+			<key>timeStoppedRecording</key>
+			<real>573735717.40429795</real>
+			<key>title</key>
+			<string>Debug Todoeey</string>
+			<key>uniqueIdentifier</key>
+			<string>86EDAE31-A177-4EA8-8187-EE9C9C0CDB42</string>
+		</dict>
 		<key>8AA3330D-CC97-4344-B492-3FF56BE0094D</key>
 		<dict>
 			<key>className</key>
@@ -499,6 +702,35 @@
 			<key>uniqueIdentifier</key>
 			<string>9269804B-7F7D-4CB6-8827-FA1DD7048946</string>
 		</dict>
+		<key>9AD1D655-FAE1-4A61-9FB1-053956E201B7</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9AD1D655-FAE1-4A61-9FB1-053956E201B7.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Todoeey project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Todoeey</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Todoeey</string>
+			<key>timeStartedRecording</key>
+			<real>573735430.37339699</real>
+			<key>timeStoppedRecording</key>
+			<real>573735446.52511406</real>
+			<key>title</key>
+			<string>Debug Todoeey</string>
+			<key>uniqueIdentifier</key>
+			<string>9AD1D655-FAE1-4A61-9FB1-053956E201B7</string>
+		</dict>
 		<key>A32B9175-5DE8-45A9-9125-5BD3E583E99D</key>
 		<dict>
 			<key>className</key>
@@ -585,6 +817,35 @@
 			<string>Debug Todoeey</string>
 			<key>uniqueIdentifier</key>
 			<string>B96E1D45-0498-4965-9662-51F509D4BD32</string>
+		</dict>
+		<key>BA96F45A-940C-43C7-8856-586EA5417497</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BA96F45A-940C-43C7-8856-586EA5417497.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Todoeey project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Todoeey</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Todoeey</string>
+			<key>timeStartedRecording</key>
+			<real>573728225.08538306</real>
+			<key>timeStoppedRecording</key>
+			<real>573728239.28807294</real>
+			<key>title</key>
+			<string>Debug Todoeey</string>
+			<key>uniqueIdentifier</key>
+			<string>BA96F45A-940C-43C7-8856-586EA5417497</string>
 		</dict>
 		<key>C396EC54-A8F3-4941-99DC-20029D75BF6F</key>
 		<dict>

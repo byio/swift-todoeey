@@ -29,7 +29,7 @@
 			<key>uniqueIdentifier</key>
 			<string>5540702B-5B71-47E3-ACD1-74A714F98494</string>
 		</dict>
-		<key>92EA34D7-EC4D-484F-A372-626C6D9B1DAE</key>
+		<key>A3546DDD-E1B8-4174-A3FB-C303ED1347DF</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -38,19 +38,19 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>92EA34D7-EC4D-484F-A372-626C6D9B1DAE.xcactivitylog</string>
+			<string>A3546DDD-E1B8-4174-A3FB-C303ED1347DF.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>signature</key>
 			<string>Todoeey-hfwtrpnzrqzeblgoouebhekfqvjh</string>
 			<key>timeStartedRecording</key>
-			<real>573699121.42481399</real>
+			<real>573739345.96154404</real>
 			<key>timeStoppedRecording</key>
-			<real>573699124.32419801</real>
+			<real>573739349.16292405</real>
 			<key>title</key>
 			<string>Build target Todoeey</string>
 			<key>uniqueIdentifier</key>
-			<string>92EA34D7-EC4D-484F-A372-626C6D9B1DAE</string>
+			<string>A3546DDD-E1B8-4174-A3FB-C303ED1347DF</string>
 		</dict>
 		<key>B3F579D0-2FA5-46C2-A5A4-1E3550536EA9</key>
 		<dict>

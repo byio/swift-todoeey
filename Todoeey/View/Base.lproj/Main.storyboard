@@ -34,7 +34,6 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Todoeey" id="tKM-Kd-6b5">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Zn8-Pm-tcB">
-                            <color key="tintColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="addButtonPressed:" destination="pm6-cP-1Cn" id="NGO-e4-8wl"/>
                             </connections>
@@ -78,7 +77,6 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Items" id="RTM-aR-9im">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Ab9-iO-ZJn">
-                            <color key="tintColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="addButtonPressed:" destination="cXu-4y-JjQ" id="7X5-cf-Sxn"/>
                             </connections>
@@ -97,8 +95,8 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RGy-Xb-vEf" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OHm-3P-Uet">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="OHm-3P-Uet">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
