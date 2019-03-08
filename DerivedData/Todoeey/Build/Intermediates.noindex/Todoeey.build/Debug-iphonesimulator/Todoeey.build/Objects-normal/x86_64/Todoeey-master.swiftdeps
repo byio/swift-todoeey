@@ -1,10 +1,10 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "46a144f8081fe6270a2a383161d61613"
-build_time: [1552002758, 603250000]
+build_time: [1552006321, 376161000]
 inputs:
   "/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/Todoeey/DataModel/Item.swift": [1551864503, 0]
   "/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/Todoeey/Controllers/CategoryViewController.swift": [1552002749, 0]
-  "/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/Todoeey/Controllers/TodoListViewController.swift": [1551962960, 0]
+  "/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/Todoeey/Controllers/TodoListViewController.swift": [1552006321, 0]
   "/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/Todoeey/AppDelegate.swift": [1551865872, 0]
   "/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/Todoeey/Controllers/SwipeTableViewController.swift": [1551960392, 0]
   "/Users/BenYang/Desktop/iOS Dev/udemy-angela/apps/Todoeey/Todoeey/DataModel/Category.swift": [1551971753, 0]

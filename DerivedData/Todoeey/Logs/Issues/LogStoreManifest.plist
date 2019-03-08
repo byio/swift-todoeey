@@ -29,6 +29,29 @@
 			<key>uniqueIdentifier</key>
 			<string>5540702B-5B71-47E3-ACD1-74A714F98494</string>
 		</dict>
+		<key>92EA34D7-EC4D-484F-A372-626C6D9B1DAE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>92EA34D7-EC4D-484F-A372-626C6D9B1DAE.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Todoeey-hfwtrpnzrqzeblgoouebhekfqvjh</string>
+			<key>timeStartedRecording</key>
+			<real>573699121.42481399</real>
+			<key>timeStoppedRecording</key>
+			<real>573699124.32419801</real>
+			<key>title</key>
+			<string>Build target Todoeey</string>
+			<key>uniqueIdentifier</key>
+			<string>92EA34D7-EC4D-484F-A372-626C6D9B1DAE</string>
+		</dict>
 		<key>B3F579D0-2FA5-46C2-A5A4-1E3550536EA9</key>
 		<dict>
 			<key>className</key>
@@ -97,29 +120,6 @@
 			<string>Build target ChameleonFramework</string>
 			<key>uniqueIdentifier</key>
 			<string>CC266C63-9A9E-40DB-A6A1-D3CBACDF927F</string>
-		</dict>
-		<key>FA1992F2-4AD1-47EF-AC0F-6AFD2389AD33</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>FA1992F2-4AD1-47EF-AC0F-6AFD2389AD33.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>Todoeey-hfwtrpnzrqzeblgoouebhekfqvjh</string>
-			<key>timeStartedRecording</key>
-			<real>573695558.60350204</real>
-			<key>timeStoppedRecording</key>
-			<real>573695565.05852199</real>
-			<key>title</key>
-			<string>Build target Todoeey</string>
-			<key>uniqueIdentifier</key>
-			<string>FA1992F2-4AD1-47EF-AC0F-6AFD2389AD33</string>
 		</dict>
 		<key>FA22CC25-AE9E-4176-8EF0-8CF917CB59D8</key>
 		<dict>
